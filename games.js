@@ -5,7 +5,7 @@ var userClickedPattern = [];
 var starded = false;
 var level = 0;
 
-$(document).click(function() {
+$(document).keypress(function() {
    if(!starded){
        $("#level-title").text("Level " + level);
        nextSequence();
